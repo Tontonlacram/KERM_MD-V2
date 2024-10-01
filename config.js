@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/40ffc2a288542560c887c.jpg";
 global.devs = "https://wa.me/237650564445 , https://wa.me/237656520674";
-global.sudo = process.env.SUDO || "237650564445";
-global.owner = process.env.OWNER_NUMBER || "237659535227";
+global.sudo = process.env.SUDO || "";
+global.owner = process.env.OWNER_NUMBER || "237679700294";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -42,17 +42,17 @@ global.scan = "https://kerm-session-2c65.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "PUT YOUR SESSION HERE"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0lGTXdzMVBwaGtNWERMMG04VVJZd09DemFBMUFKYU5UMmI3bWhnVGpXUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUlweEFXYTlWYjRFSXk5ZVozcC9MK1U0QWhXcDhlRjF3UTlhRjlVY3dnYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIyUEU3VTlMdW1pdmJUT1R5TFFKZHJ0QkJwY0xLYTV1bmk0eFhoWk1zaFg4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZTVpUV204ZHdaNWp5bDc0cUhkR093SUVQQ1NCekRhUERKMG9HSXZyaEFJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndCZlRzVDlKcmlIU3BBQUltc1RSQk1nakRyaldJMmZ3ejNPZXNDTTVKVTA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InhtdzR1di85MVpMWnh4ZVBiMnJnWmhGdHMxSjRSKzVKbVloRkZSckFHRVE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUJLb2ozcWxMdlJ5S0NLcHFaNW9VZ3lTVlFJU2NsRHY1dXRrZlliYVMxaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRklXSmNUYUVHYTBrMnFwM0ZhazJzbTVtZ2tiVlB2QmVDaUxJVndzWFpnZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ikl6MWpzS1kyRW55cG9DRUtmWFl6czRWS1Nla3FoUHJWb1NvNU1lTC9kR25paE5CbmFJZFEvWHBUYktMaUJsUGtWSU9aMnBhaE1Qa0pSTHJrdFVNMGlnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTMxLCJhZHZTZWNyZXRLZXkiOiJ6aVZBcVAwVVhGaGg0TlhrNVh6VWZBUGNRdUdFenhUS2srWVZUb3RmditJPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJyc3JVc29WaVFBYUIzSEQzN2JFN0RRIiwicGhvbmVJZCI6ImEzZmNjOTkwLTY3YzAtNDU3Ni1hNWJhLTI1MDBkM2UyODQxYyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI3ZlpldWxkUTdsRXRUT1B0MlgyYTU3SFQySEU9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMWhMZVo1WTVEUGhwUTNuVm1MSUt0R254RmUwPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjNORDgyWVY5IiwibWUiOnsiaWQiOiIyMzc2Nzk3MDAyOTQ6MjFAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05yMGw4RUVFTG1wOGJjR0dCUWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik05c0s1MnZGSUdYcDJtUndMNkQxdnd2Qmw3UGVvY1pCZ0djUFBjV2xjU0k9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjFkaW54WkdnOENDUVY5dFIvVHZobjc2SEJycWg1N20xVG5CZ1ZYQWNBa0RpNzlaRnVuZ0FiWW5RZThCRjNlT3pZeUJuZHFNem1rTnJJajlMS0Jlb0RRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI3YVloZ3ZuTU1Dc1JEQjdmNzk2enNDdDZkUkFuUlpGcnltcFR1N1ZTMFRhUlN1NlhhT2RqMEdqaWdtQzBzRXNaMmNOT1BFZVczSXYxSkpBL1pzOCtqUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNzY3OTcwMDI5NDoyMUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUUGJDdWRyeFNCbDZkcGtjQytnOWI4THdaZXozcUhHUVlCbkR6M0ZwWEVpIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzI3ODEyODA2fQ=="
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`BRAND PRODUCT OF ☞⌜ KG TECH⌝☜`",
-  author: process.env.PACK_AUTHER || "KG TECH",
+  author: process.env.PACK_AUTHER || "꧁❤•༆$🅱🆁🅰🅽🅳🅾🅽♥࿇꧂",
   packname: process.env.PACK_NAME || "Kerm-MD-V2",
-  botname: process.env.BOT_NAME || "ᵏᵍ┘𝙺𝙴𝚁𝙼_𝙼𝙳_𝚅𝟸𖤐",
-  ownername: process.env.OWNER_NAME || "☞⌜ KG TECH⌝☜",
+  botname: process.env.BOT_NAME || "Brandon bot𖤐",
+  ownername: process.env.OWNER_NAME || "☞⌜ Brandon⌝☜",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "tCxobE1FqJgfbDZgsYQNHBFB",
